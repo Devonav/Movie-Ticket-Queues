@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/devonvillalona/Downloads/movieline-data/movieline'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035A4, symSize: 0x368 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000035A4, symSize: 0x368 }
+  - { offsetInCU: 0x1E7, offset: 0x1E7, size: 0x8, addend: 0x0, symName: _make_customer, symObjAddr: 0x368, symBinAddr: 0x10000390C, symSize: 0x80 }
+  - { offsetInCU: 0x247, offset: 0x247, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x3E8, symBinAddr: 0x10000398C, symSize: 0x98 }
+  - { offsetInCU: 0x287, offset: 0x287, size: 0x8, addend: 0x0, symName: _get_non_empty, symObjAddr: 0x480, symBinAddr: 0x100003A24, symSize: 0xC4 }
+  - { offsetInCU: 0x2F5, offset: 0x2F5, size: 0x8, addend: 0x0, symName: _get_next, symObjAddr: 0x544, symBinAddr: 0x100003AE8, symSize: 0xEC }
+  - { offsetInCU: 0x3B7, offset: 0x3B7, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0x630, symBinAddr: 0x100003BD4, symSize: 0xB4 }
+  - { offsetInCU: 0x3FB, offset: 0x3FB, size: 0x8, addend: 0x0, symName: _make_new_queue, symObjAddr: 0x6E4, symBinAddr: 0x100003C88, symSize: 0x40 }
+  - { offsetInCU: 0x423, offset: 0x423, size: 0x8, addend: 0x0, symName: _is_empty, symObjAddr: 0x724, symBinAddr: 0x100003CC8, symSize: 0x24 }
+  - { offsetInCU: 0x44B, offset: 0x44B, size: 0x8, addend: 0x0, symName: _peek, symObjAddr: 0x748, symBinAddr: 0x100003CEC, symSize: 0x54 }
+  - { offsetInCU: 0x473, offset: 0x473, size: 0x8, addend: 0x0, symName: _get_size, symObjAddr: 0x79C, symBinAddr: 0x100003D40, symSize: 0x18 }
+  - { offsetInCU: 0x49B, offset: 0x49B, size: 0x8, addend: 0x0, symName: _get_front_arrival_time, symObjAddr: 0x7B4, symBinAddr: 0x100003D58, symSize: 0x5C }
+  - { offsetInCU: 0x4C3, offset: 0x4C3, size: 0x8, addend: 0x0, symName: _get_line, symObjAddr: 0x810, symBinAddr: 0x100003DB4, symSize: 0x148 }
+...
